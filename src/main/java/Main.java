@@ -83,8 +83,8 @@ public class Main {
     private static void Test1() throws IOException {
         // Ctrl+D для выхода из консольного input
         FileCutter.cutText(
-                "g:\\DiskG\\Books\\Java\\Projects\\IdeaProjects\\FileCutterProject\\input.txt",
-                "g:\\DiskG\\Books\\Java\\Projects\\IdeaProjects\\FileCutterProject\\out.txt",
+                null,
+                null,
                 FileCutter.Unit.CHAR, 1, 3
         );
     }
